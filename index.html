@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Las mejores noticias del fútbol argentino y de la selección aquí">
+    <meta name="keywords" content="futbol, argentina, deporte, seleccion, AFA, campeonato, noticias">
+    <title>Fútbol Argentino - inicio</title>
+
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css"  href="estilos.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top"> 
+      <a class="navbar-brand">Fútbol Argentino</a> 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="pages/estadisticas.html">estadísticas <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/noticias.html">noticias</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                selección
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="pages/seleccionEstadisticas.html">estadísticas</a>
+                <a class="dropdown-item" href="pages/galeriaSeleccion.html">galería</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/contacto.html">contacto</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+          </form>
+        </div>
+  </nav>
+  <section class="seccion1">
+    <h1 class="seccion1__titulo">Próximos partidos:</h1>
+    <div class="row contenedor">
+      <div class="col-4">
+        <div class="list-group" id="list-tab" role="tablist">
+          <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Copa de la liga profesional</a>
+          <a class="list-group-item list-group-item-action " id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Copa argentina</a>
+          <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Conmebol libertadores</a>
+          <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Conmebol sudamericana</a>
+        </div>
+      </div>
+      <div class="col-8">
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list"> 
+            <div>Fecha 13:</div>
+            <ul class="proxPartidos1"> 
+              <li class="proxPartidos1__titulo2">Sábado 8 de mayo</li>
+              <li>13.00 Godoy Cruz – Banfield</li>
+              <li>15.30 Gimnasia – Vélez</li>
+              <li>15.30 Atlético Tucumán – Defensa y Justicia</li>
+              <li>18.00 Patronato – Boca</li>
+            
+            <ul class="proxPartidos1"> 
+              <li class="proxPartidos1__titulo2">Domingo 9 de mayo</li>
+              <li>10.00 Arsenal – Central Córdoba</li>
+              <li>12.10 Argentinos – Estudiantes</li>
+              <li>14.30 Racing – San Lorenzo</li>
+              <li>14.30 Platense – Rosario Central</li>
+              <li>14.30 River – Aldosivi</li>
+              <li>17.15 Lanús – Talleres</li>
+              <li>17.15 Huracán-Independiente</li> 
+              <li>17.15 Colón – Unión</li>
+              <li>21.00 Newell’s – Sarmiento</li>
+          </ul>
+          </ul>
+          </div>
+          <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+            <div>16avos. de final:</div>
+            <ul class="proxPartidos1">
+              <li class="proxPartidos1__titulo2">Miércoles 12 de mayo</li>
+              <li>Sp. Estudiantes (S. Luis)- Villa San Carlos</li>
+              <li class="proxPartidos1__titulo2">Jueves 13 de mayo</li>
+              <li>Boca Unidos (Ctes.) - Godoy Cruz (Mza.)</li>
+              <li class="proxPartidos1__titulo2">Lunes 17 de mayo</li>
+              <li>Newell's Old Boys - Sarmiento</li>
+              <li class="proxPartidos1__titulo2">Miércoles 19 de mayo</li>
+              <li>Talleres (R.E.) - Temperley</li>
+              <li>Tigre - Independiente</li>
+            </ul>
+
+          </div>
+          <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+            <div>Fase de grupos:</div>
+            <ul class="proxPartidos1">
+              <li>Fecha 3:</li>
+              <li class="proxPartidos1__titulo2">Martes 4 de mayo</li>
+              <li>19.15 Unión La Calera (Chile) - Vélez</li>
+              <li>21.30 Barcelona (Ecuador) - Boca Juniors</li>
+              <li>21.30 Defensa y Justicia - Palmeiras (Brasil)</li>
+              <li class="proxPartidos1__titulo2">Miércoles 5 de mayo</li>
+              <li>19.00 Racing Club - San Pablo (Brasil)</li>
+              <li class="proxPartidos1__titulo2">Jueves 6 de mayo</li>
+              <li>19.00 Atlético Nacional (Colombia) - Argentinos Juniors</li>
+              <li>21.00 Independiente Santa Fe (Colombia) - River Plate</li>
+            </ul>
+          </div>
+          <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+            <div>Fase de grupos:</div>
+          <ul class="proxPartidos1"> 
+            <li>Fecha 3</li>
+            <li class="proxPartidos1__titulo2">Martes 4 de mayo</li>
+            <li>19.15 Bahia (Bahía)- Independiente</li>
+            <li>23.00 Palestino (Chile) Newell's</li>
+            <li class="proxPartidos1__titulo2">Miércoles 5 de mayo</li>
+            <li>19.15 Huachipato (Chile) - Rosario Central</li>
+            <li>21.30 Red Bull Bragantino (Brasil) - Talleres</li>
+            <li class="proxPartidos1__titulo2">Jueves 6 de mayo</li>
+            <li>19.15 San Lorenzo - 12 de Octubre (Paraguay)</li>
+            <li>23.00 La Equidad (Colombia) - Lanús</li>
+          </ul>  
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="seccion2">
+    <h1 class="seccion2__tituloTabla">tabla de posiciones:</h1>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Posición</th>
+          <th scope="col">Equipo</th>
+          <th scope="col">Goles a favor</th>
+          <th scope="col">Puntos</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Vélez Sardfield</td>
+          <td>+22</td>
+          <td>28pts.</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Colón de Santa Fe</td>
+          <td>+9</td>
+          <td>24pts.</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Boca Juniors</td>
+          <td>+22</td>
+          <td>22pts.</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Estudiantes de la plata</td>
+          <td>+16</td>
+          <td>22pts.</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>San Lorenzo</td>
+          <td>+16</td>
+          <td>21pts.</td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td>Talleres de Córdoba</td>
+          <td>+19</td>
+          <td>20pts.</td>
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td>River Plate</td>
+          <td>+22</td>
+          <td>18pts.</td>
+        </tr>
+        <tr>
+          <th scope="row">8</th>
+          <td>Rosario Central</td>
+          <td>+15</td>
+          <td>18pts.</td>
+        </tr>
+        <tr>
+          <th scope="row">9</th>
+          <td>Unión de Santa Fe</td>
+          <td>+11</td>
+          <td>18pts.</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  
+  <section class="seccion3">
+    <h1 class="seccion3__tituloGol">gol de la fecha:</h1>
+  <div class="seccion3__golDeLaFecha">  
+    <iframe class="seccion3__golDeLaFecha2" width="560" height="315" src="https://www.youtube.com/embed/nT7k6hdddIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  </section>  
+  
+  <footer class="seccion4">
+    <img src="images/logo3.png" alt="logoPagina" class="seccion4__logoFooter">
+	<div class="seccion4__tituloFooter"><h1 class="seccion4__titulo">FútbolArgentino</h1></div>
+	<div class="seccion4__seguinos"><h2 class="seccion4__seguir">Seguinos!</h2></div>
+	<div>
+		<a href="https://www.instagram.com/juancruzmilan5/" target="_blank"><img src="images/instagram.png" class="seccion4__logoInstagram" alt="logoInstagram"></a>
+		<a href="https://twitter.com/JuanCruzzzzM" target="_blank"><img src="images/twitter.png" class="seccion4__logoTwitter" alt="logoTwitter"></a>
+	</div>
+  </footer> 
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>   
+</body>
+</html>

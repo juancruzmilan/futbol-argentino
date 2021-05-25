@@ -1,0 +1,480 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*index.html*/
+nav {
+  width: 100%;
+  background-color: #caf7e3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* proximos partidos */
+.seccion1 {
+  height: 500px;
+  width: 100%;
+  background-color: #caf7e3;
+}
+
+.seccion1__titulo {
+  text-align: center;
+  padding-bottom: 30px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.contenedor {
+  margin-left: 80px;
+  margin-top: 30px;
+}
+
+.proxPartidos1 {
+  list-style: none;
+}
+
+.proxPartidos1__titulo2 {
+  font-weight: bold;
+}
+
+/*tabla general*/
+.seccion2 {
+  height: 600px;
+  width: 100%;
+  background-color: #edffec;
+}
+
+.seccion2__tituloTabla {
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+/* gol de la fecha */
+.seccion3 {
+  height: 450px;
+  width: 100%;
+  background-color: #f6dfeb;
+}
+
+.seccion3__golDeLaFecha {
+  text-align: center;
+}
+
+.golazo {
+  padding-top: 10px;
+}
+
+.seccion3__tituloGol {
+  text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+/*footer*/
+.seccion4 {
+  height: 670px;
+  width: 100%;
+  background-color: #e4bad4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border: 0px;
+}
+
+.seccion4__seguinos {
+  font-size: 25px;
+  margin-left: 450px;
+  margin-top: 20px;
+}
+
+.seccion4__seguir {
+  color: black;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.seccion4__logoInstagram {
+  height: 60px;
+  width: 60px;
+  margin-top: 60px;
+}
+
+.seccion4__logoTwitter {
+  height: 60px;
+  width: 60px;
+  margin-top: 60px;
+}
+
+footer div h3 {
+  color: white;
+}
+
+.logoFooter {
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+.seccion4__tituloFooter {
+  padding-top: 45px;
+  padding-left: 20px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+/*noticias*/
+.seccion1Noticias {
+  height: 1250px;
+  background-color: #edffec;
+}
+
+.contenedorNoticias {
+  padding-top: 20px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  padding: 7px;
+}
+
+.tituloNoticias {
+  text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+/*estadisticas*/
+.seccion1Estadisticas {
+  height: 400px;
+  width: 100%;
+  background-color: #caf7e3;
+  padding: 15px;
+}
+
+.tituloEstadisticas {
+  text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+  padding-bottom: 15px;
+}
+
+.goleadores {
+  list-style: none;
+  padding-top: 10px;
+}
+
+/*contacto*/
+.seccion1Contacto {
+  background-color: #caf7e3;
+  height: 400px;
+  width: 100%;
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 10px;
+  border: 0px;
+}
+
+div p {
+  text-align: center;
+}
+
+.seccion1Contacto__tituloContacto {
+  text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.seccion2Contacto__tituloContacto {
+  text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.formulario1 {
+  padding-bottom: 10px;
+}
+
+.seccion2Contacto {
+  height: 250px;
+  width: 100%;
+  background-color: #edffec;
+  margin-bottom: 10px;
+}
+
+.seccion2Contacto__redes {
+  text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+  padding-top: 10px;
+}
+
+.seccion2Contacto__redes1 {
+  text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.seccion4Contacto {
+  background-color: #f6dfeb;
+  height: 150px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.seccion4Contacto__seguinos {
+  font-size: 25px;
+  margin-left: 450px;
+  margin-top: 20px;
+}
+
+.seccion4Contacto__seguir {
+  color: black;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.seccion4Contacto__logoInstagram {
+  height: 60px;
+  width: 60px;
+  margin-top: 60px;
+}
+
+.seccion4Contacto__logoTwitter {
+  height: 60px;
+  width: 60px;
+  margin-top: 60px;
+}
+
+.seccion4Contacto__logoFooter {
+  margin-top: 25px;
+  margin-left: 10px;
+  margin-bottom: 25px;
+}
+
+.seccion4Contacto__tituloFooter {
+  padding-top: 45px;
+  padding-left: 20px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+/* estadisticas seleccion */
+.seccion2Es {
+  height: 1550px;
+  width: 100%;
+  background-color: #edffec;
+}
+
+.campeonatos {
+  text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+.tituloCopa {
+  text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+  padding: 5px;
+}
+
+/*gaaleria*/
+.seccion1galeria {
+  height: auto;
+  width: 100%;
+  background-color: #caf7e3;
+}
+
+.seccion1galeria__galeria {
+  width: 100%;
+  height: 350px;
+}
+
+.col-lg-4 {
+  padding: 25px;
+}
+
+.col-lg-4 img:hover {
+  border: 5px solid #f7f7f7;
+}
+
+#leo {
+  background-size: cover;
+}
+
+.seccion1galeria__tituloCopa {
+  text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+  padding: 5px;
+}
+
+/*Media quares*/
+@media screen and (min-width: 480px) {
+  .seccion1 {
+    height: 600px;
+    width: auto;
+  }
+  .seccion2 {
+    height: 650px;
+    width: 100%;
+  }
+  .seccion3__golDeLaFecha2 {
+    height: 150x;
+    width: auto;
+  }
+  .seccion4 {
+    height: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .seccion4__logoFooter {
+    display: none;
+  }
+  .seccion4__titulo {
+    margin-left: 80px;
+  }
+  .seccion4__logoInstagram {
+    display: none;
+  }
+  .seccion4__logoTwitter {
+    display: none;
+  }
+  .seccion4__seguir {
+    display: none;
+  }
+  .seccion4Contacto__titulo {
+    margin-left: 80px;
+  }
+  .seccion4Contacto__logoFooter {
+    display: none;
+  }
+  .seccion4Contacto__seguir {
+    display: none;
+  }
+  .seccion4Contacto__logoInstagram {
+    display: none;
+  }
+  .seccion4Contacto__logoTwitter {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .seccion1 {
+    height: 500px;
+    width: 100%;
+    background-color: #caf7e3;
+  }
+  .seccion2 {
+    height: 600px;
+    width: 100%;
+    background-color: #edffec;
+  }
+  .golDeLaFecha1 {
+    text-align: center;
+    width: 560px;
+    height: 315px;
+  }
+  .seccion4 {
+    height: 150px;
+    width: 100%;
+    background-color: #e4bad4;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    border: none;
+  }
+  .seccion4__logoFooter {
+    margin-top: 25px;
+    margin-left: 10px;
+  }
+  .seccion3__golDeLaFecha2 {
+    height: 315px;
+    width: 560px;
+  }
+  .seccion4__logoFooter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+  }
+  .seccion4__titulo {
+    margin-left: 80px;
+  }
+  .seccion4__logoInstagram {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 60px;
+    width: 60px;
+    margin-top: 60px;
+  }
+  .seccion4__logoTwitter {
+    display: none;
+    margin-left: 50px;
+  }
+  .seccion4__seguir {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  .seccion4Contacto__titulo {
+    margin-left: 80px;
+  }
+  .seccion4Contacto__logoFooter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 25px;
+    margin-left: 10px;
+  }
+  .seccion4Contacto__seguir {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  .seccion4Contacto__logoInstagram {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 60px;
+    width: 60px;
+    margin-top: 60px;
+  }
+  .seccion4Contacto__logoTwitter {
+    display: none;
+    height: 60px;
+    width: 60px;
+    margin-top: 60px;
+  }
+  .seccion4__tituloFooter {
+    padding-top: 45px;
+    padding-left: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  .seccion4Contacto__tituloFooter {
+    padding-top: 45px;
+    padding-left: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+}
+/*# sourceMappingURL=estilos.css.map */

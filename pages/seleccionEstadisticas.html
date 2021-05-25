@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Las estadísticas completas de la historia y actualidad de la selección albiceleste">
+    <meta name="keywords" content="futbol, argentina, deporte, seleccion, AFA, campeonato, noticias">
+    <title>Fútbol Argentino - selección</title>
+
+    <link rel="stylesheet" type="text/css" href="../estilos.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="../index.html">Fútbol Argentino</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="estadisticas.html">estadísticas <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="noticias.html">noticias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">contacto</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+          </form>
+        </div>
+      </nav>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="estadisticas.html">estadísticas <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="noticias.html">noticias</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="seleccion.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              selección
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="seleccionEstadisticas.html">estadísticas</a>
+              <a class="dropdown-item" href="efemeridesSeleccion.html">efemérides</a>
+              <a class="dropdown-item" href="galeriaSeleccion.html">galería</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">contacto</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+        </form>
+      </div>
+    </nav> 
+    <section class="seccion1Estadisticas">
+      <h1 class="tituloEstadisticas">Estadísticas</h1>
+      <div class="row">
+          <div class="col-4">
+            <div class="list-group" id="list-tab" role="tablist">
+              <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Goleadores históricos</a>
+              <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Asistidores históricos</a>
+              <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Más partidos jugados</a>
+              <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Capitanes</a>
+            </div>
+          </div>
+          <div class="col-8">
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                  <ul class="goleadores">
+                      <li>Lionel Andrés Messi - 70 goles</li>
+                      <li>Gabriel Omar Batistuta - 54 goles</li>
+                      <li>Sergio "Kun" Agüero - 41 goles</li>
+                      <li>Hernán Crespo - 35 goles</li>
+                      <li>Diego Armando Maradona - 34 goles</li>
+                      <li>Gonzalo Higuaín - 32 goles</li>
+                      <li>Luis Artime - 24 goles</li>
+                      <li>Daniel Passarela - 22 partidos</li>
+                      <li>Leopoldo Luque - 22 partidos</li>
+                      <li>José Sanfilippo - 21 goles</li>
+                  </ul>
+              </div>
+              <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                  <ul class="goleadores">
+                      <li>Lionel Andrés Messi - 42 asistencias</li>
+                      <li>Diego Armando Maradona - 34 asistencias</li>
+                      <li>Ariel Ortega - 25 asistencias</li>
+                      <li>Ángel Di María - 24 asistencias</li>
+                      <li>Juan Román Riquelme - 19 asistencias</li>
+                  </ul>
+              </div>
+              <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                  <ul class="goleadores">
+                      <li>Javier Mascherano - 147 partidos</li>
+                      <li>Javier Zannetti - 145 partidos</li>
+                      <li>Lionel Andrés Messi - 142 partidos</li>
+                      <li>Roberto Ayala - 116 partidos</li>
+                      <li>Diego Simeone - 108 partidos</li>
+                      <li>Ángel Di María - 104 partidos</li>
+                      <li>Sergio "Kun" Agüero - 97 partidos</li>
+                      <li>Oscar Ruggeri - 97 partidos</li>
+                      <li>Sergio "Chiquito" Romero - 96 partidos</li>
+                      <li>Diego Armando Maradona - 91 partidos</li>
+                  </ul>
+              </div>
+              <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+                  <ul class="goleadores">
+                      <li>1978–82	Daniel Pasarella</li>
+                      <li>1985–90	Diego Armando Maradona</li>
+                      <li>1991–93	Oscar Ruggeri</li>
+                      <li>1994	Diego Armando Maradona</li>
+                      <li>1995	Marcelo Espina</li>
+                      <li>1996–99	Diego Simeone</li>
+                      <li>2002	Juan Sebastián Verón</li>
+                      <li>2004	Roberto Ayala</li>
+                      <li>2005–06	Juan Pablo Sorín</li>
+                      <li>2007	Roberto Ayala</li>
+                      <li>2008–11	Javier Mascherano</li>
+                      <li>2011–Act.	Lionel Messi</li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+ 
+ 
+    <section class="seccion2Es">
+        <h1 class="campeonatos animate__animated animate__backInUp">Campeonatos:</h1>
+        <h2 class="tituloCopa animate__animated animate__backInLeft">Copa América 1921</h2>
+        <h2 class="tituloCopa animate__animated animate__backInRight">Copa América 1925</h2>
+        <h2 class="tituloCopa animate__animated animate__backInLeft">Copa América 1927</h2>
+        <h2 class="tituloCopa animate__animated animate__backInRight">Copa América 1929</h2>
+        <h2 class="tituloCopa animate__animated animate__backInLeft">Copa América 1937</h2>
+        <h2 class="tituloCopa animate__animated animate__backInRight">Copa América 1941</h2>
+        <h2 class="tituloCopa animate__animated animate__backInLeft">Copa América 1945</h2>
+        <h2 class="tituloCopa animate__animated animate__backInRight">Copa América 1946</h2>
+        <h2 class="tituloCopa animate__animated animate__backInLeft">Copa América 1947</h2>
+        <h2 class="tituloCopa animate__animated animate__backInRight">Copa América 1955</h2>
+        <h2 class="tituloCopa animate__animated animate__backInLeft">Copa América 1957</h2>
+        <h2 class="tituloCopa animate__animated animate__backInRight">Copa América 1959</h2>
+        <h2 class="tituloCopa animate__animated animate__backInLeft">Copa del Mundo 1978</h2>
+        <h2 class="tituloCopa animate__animated animate__backInRight">Copa del Mundo sub-20 1979</h2>
+        <h2 class="tituloCopa animate__animated animate__backInLeft">Copa del Mundo 1986</h2>
+        <h2 class="tituloCopa animate__animated animate__backInRight">Copa América 1991</h2>
+        <h2 class="tituloCopa animate__animated animate__backInLeft">Copa Confederaciones 1992</h2>
+        <h2 class="tituloCopa animate__animated animate__backInRight">Copa América 1993</h2>
+        <h2 class="tituloCopa animate__animated animate__backInLeft">Copa del Mundo sub-20 1995</h2>
+        <h2 class="tituloCopa animate__animated animate__backInRight">Copa del Mundo sub-20 1997</h2>
+        <h2 class="tituloCopa animate__animated animate__backInLeft">Copa del Mundo sub-20 2001</h2>
+        <h2 class="tituloCopa animate__animated animate__backInRight">Juegos Olímpicos de Atenas 2004</h2>
+        <h2 class="tituloCopa animate__animated animate__backInLeft">Copa del Mundo sub-20 2005</h2>
+        <h2 class="tituloCopa animate__animated animate__backInRight">Copa América Femenina 2006</h2>
+        <h2 class="tituloCopa animate__animated animate__backInLeft">Copa del Mundo sub-20 2007</h2>
+        <h2 class="tituloCopa animate__animated animate__backInRight">Juegos Olímpicos de Beijing 2008</h2>
+       
+        
+
+
+
+
+    </section>
+
+
+
+
+    <footer class="seccion4">
+        <img src="../images/logo3.png" alt="logoPagina" class="seccion4__logoFooter">
+        <div class="seccion4__tituloFooter"><h1 class="seccion4__titulo">FútbolArgentino</h1></div>
+        <div class="seccion4__seguinos"><h2 class="seccion4__seguir">Seguinos!</h2></div>
+        <div>
+        <a href="https://www.instagram.com/juancruzmilan5/" target="_blank"><img src="../images/instagram.png" class="seccion4__logoInstagram" alt="logoInstagram"></a>
+        <a href="https://twitter.com/JuanCruzzzzM" target="_blank"><img src="../images/twitter.png" class="seccion4__logoTwitter" alt="logoTwitter"></a>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>    
+</body>
+</html>
