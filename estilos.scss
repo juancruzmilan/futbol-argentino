@@ -334,14 +334,34 @@ div p{
 
 /*Media quares*/
 
-@media screen and (min-width: 480px){
+@media screen and (min-width: 320px){
+
+    .list-group-item{
+        height: 80px;
+        width: 90px;
+        padding: 5px;
+        text-align: left;
+        overflow: scroll;
+    }
     .seccion1{
-        height: 600px;
+        height: 1100px;
         width: auto;
+    }
+
+    .seccion1__titulo{
+        padding-top: 10px;
+    }
+
+    .proxPartidos1{
+        padding-left: 20px;
+    }
+
+    .partidos{
+        padding-left: 20px;
     }
     
     .seccion2{
-        height: 650px;
+        height: 910px;
         width: 100%;
     }
 
@@ -360,7 +380,7 @@ div p{
     }
 
     .seccion4__titulo{
-        margin-left: 80px;
+        margin-left: 7px;
     }
     
     .seccion4__logoInstagram{
@@ -374,9 +394,9 @@ div p{
     .seccion4__seguir{
         display: none;
     }
-
+    
     .seccion4Contacto__titulo{
-        margin-left: 80px;
+        margin-left: 7px;
     }
 
     .seccion4Contacto__logoFooter{
@@ -395,12 +415,43 @@ div p{
         display: none;
     }
 
+    .seccion1Noticias{
+        height: 1600px;
+        height: auto;
+    }
+
+    .tituloNoticias{
+        padding-top: 10px;
+    }
+
+    .seccion1Estadisticas{
+        height: 700px;
+    }
+
+   .seccion2Es{
+       height: 2100px;
+   }
 
 }
 
 @media screen and (min-width: 600px){
+    .list-group-item{
+        height: 80px;
+        width: 512px;
+        padding-left: none;
+        text-align: left;
+        overflow:hidden;
+        border-radius: 5px;
+    }
+
+    
+
+    .list-group{
+        padding-left: none;
+    }
+
     .seccion1{
-        height: 500px;
+        height: 550px;
         width: 100%;
         background-color: #caf7e3;
     }
@@ -410,6 +461,11 @@ div p{
         background-color: #edffec;
     
     }
+
+    .seccion3__tituloGol{
+        padding-top: 10px;
+    }
+
     .golDeLaFecha1{
         text-align: center;
         width: 560px;
@@ -504,5 +560,14 @@ div p{
         font-family: 'Nunito Sans', sans-serif;
     }
 
+    /* seleccion estadisticas */
+
+    .seccion1Estadisticas{
+        height: 500px;
+    }
+    .seccion2Es{
+        height: 1550px;
+    }
+    
 }
     
