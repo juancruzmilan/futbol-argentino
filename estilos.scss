@@ -336,15 +336,14 @@ div p{
 
 @media screen and (min-width: 320px){
 
-    .list-group-item{
-        height: 80px;
-        width: 90px;
-        padding: 5px;
-        text-align: left;
-        overflow: scroll;
+    /*inicio*/
+    .contenedor{
+        padding-right: 50px;
+
     }
+    
     .seccion1{
-        height: 1100px;
+        height: 1450px;
         width: auto;
     }
 
@@ -352,22 +351,39 @@ div p{
         padding-top: 10px;
     }
 
+    .list-group-item{
+        text-align: left;
+    }
+
     .proxPartidos1{
-        padding-left: 20px;
+        text-align: left;
+        font-size: 15px;
+        padding-top: 25px;
     }
 
     .partidos{
         padding-left: 20px;
     }
     
+    
     .seccion2{
         height: 910px;
         width: 100%;
     }
+    
+    .seccion3{
+        height: 350px;
+    }
+
+    .seccion3__tituloGol{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
 
     .seccion3__golDeLaFecha2{
-        height: 150x;
-        width: auto;
+        padding-top: 35px;
+        height: 190px;
+        width: 280px;
     }
 
     .seccion4{
@@ -395,6 +411,8 @@ div p{
         display: none;
     }
     
+    /*contacto*/
+
     .seccion4Contacto__titulo{
         margin-left: 7px;
     }
@@ -415,6 +433,8 @@ div p{
         display: none;
     }
 
+    /*noticias*/
+
     .seccion1Noticias{
         height: 1600px;
         height: auto;
@@ -424,12 +444,37 @@ div p{
         padding-top: 10px;
     }
 
+
+    /*estadisticas*/
+
     .seccion1Estadisticas{
-        height: 700px;
+        height: 1010px;
     }
 
-   .seccion2Es{
+    .goleadores{
+        padding-top: 30px;
+        padding-left: 10px;
+    }
+
+    .contenedor2{
+        padding-left: 45px;
+    }
+
+    /*estadisticas seleccion*/
+
+    .seccion2Es{
        height: 2100px;
+   }
+
+   /*galeria seleccion*/
+
+   .seccion1galeria__tituloCopa{
+       padding-top: 15px;
+   }
+
+   .seccion1galeria__galeria{
+       height: 200px;
+       width: 100%;
    }
 
 }
