@@ -16,6 +16,23 @@ nav{
     background-color: #caf7e3;
     display: flex;
 }
+
+/*carousel*/
+/*
+.carousel{
+    height: auto;
+    width: 100%;
+}
+
+.efecto{
+    filter: grayscale(80%);
+}
+
+.bienvenida{
+    font-family: 'Nunito Sans', sans-serif;
+
+}*/
+
 /* proximos partidos */
 .seccion1{
     height: 500px;
@@ -30,6 +47,8 @@ nav{
     
 }
 
+
+
 .contenedor{
     margin-left: 80px;
     margin-top: 30px;
@@ -37,6 +56,9 @@ nav{
 
 .proxPartidos1{
     list-style: none;
+    padding-left: 10px;
+    
+    
    
 }
 
@@ -45,6 +67,7 @@ nav{
 }
 
 /*tabla general*/
+/*
 .seccion2{
     height: 600px;
     width: 100%;
@@ -58,6 +81,8 @@ nav{
     padding-top: 10px;
     font-family: 'Nunito Sans', sans-serif;
 }
+*/
+
 /* gol de la fecha */
 .seccion3{
     height: 450px;
@@ -311,7 +336,6 @@ div p{
 .col-lg-4 img:hover{ 
     border: 5px solid #f7f7f7;
 }
-
 #leo{
     background-size: cover;
 }
@@ -337,14 +361,15 @@ div p{
 @media screen and (min-width: 320px){
 
     /*inicio*/
+    
     .contenedor{
         padding-right: 50px;
-
     }
     
+    
     .seccion1{
-        height: 1450px;
-        width: auto;
+        height: 1650px;
+        width: 100%;
     }
 
     .seccion1__titulo{
@@ -356,9 +381,9 @@ div p{
     }
 
     .proxPartidos1{
-        text-align: left;
         font-size: 15px;
         padding-top: 25px;
+        word-break: keep-all;
     }
 
     .partidos{
@@ -463,7 +488,11 @@ div p{
     /*estadisticas seleccion*/
 
     .seccion2Es{
-       height: 2100px;
+       height: 1200px;
+   }
+
+   .tituloCopa{
+       font-size: 20px;
    }
 
    /*galeria seleccion*/
@@ -480,6 +509,7 @@ div p{
 }
 
 @media screen and (min-width: 600px){
+    
     .list-group-item{
         height: 80px;
         width: 512px;
@@ -489,14 +519,17 @@ div p{
         border-radius: 5px;
     }
 
+    .contenedor{
+        margin-left: 20px;
     
+    }
 
     .list-group{
         padding-left: none;
     }
 
     .seccion1{
-        height: 550px;
+        height: 950px;
         width: 100%;
         background-color: #caf7e3;
     }
@@ -505,6 +538,12 @@ div p{
         width: 100%;
         background-color: #edffec;
     
+    }
+
+
+    .seccion3{
+        height: 450px;
+        width: 100%;
     }
 
     .seccion3__tituloGol{
@@ -517,7 +556,7 @@ div p{
         height: 315px;
     }
     .seccion4{
-        height: 150px;
+        height: 350px;
         width: 100%;
         background-color: #e4bad4;
         display: flex;
@@ -525,94 +564,171 @@ div p{
         border: none;
     }
     .seccion4__logoFooter{
-        margin-top: 25px;
-        margin-left: 10px;
+        display: flex;
+        margin-top: 150px;
+        margin-left: 250px;
+        height: 100px;
+        width: auto;
     }
     .seccion3__golDeLaFecha2{
         height: 315px;
         width: 560px;
+        padding-right: 15px;
     }
 
-    .seccion4__logoFooter{
-        display: flex;
-        margin-top: 25px;
-	    margin-left: 10px;
-        margin-bottom: 25px;    
-    }
-
-    .seccion4__titulo{
-        margin-left: 80px;
-    }
-    
     .seccion4__logoInstagram{
-        display: flex;
-        height: 60px;
-	    width: 60px;
-	    margin-top: 60px;
+        display: none;
     }
 
     .seccion4__logoTwitter{
-        display: none;
-        margin-left: 50px;
-       
+        display: none;  
     }
 
     .seccion4__seguir{
-        display: flex;
-        color: black;
-        font-family: 'Nunito Sans', sans-serif;
+        display: none;  
     }
 
-    .seccion4Contacto__titulo{
-        margin-left: 80px;
+    .seccion4Contacto{
+        height: 350px;
+        width: 100%;
+        background-color: #e4bad4;
+        display: flex;
+        flex-direction: row;
+        border: none;
     }
 
     .seccion4Contacto__logoFooter{
         display: flex;
-        margin-top: 25px;
-    	margin-left: 10px;
+        margin-top: 150px;
+        margin-left: 250px;
+        height: 100px;
+        width: auto;
     }
 
     .seccion4Contacto__seguir{
-        display: flex;
-        color: black;
-        font-family: 'Nunito Sans', sans-serif;
+        display: none;
     }
 
     .seccion4Contacto__logoInstagram{
-        display: flex;
-        height: 60px;
-	    width: 60px;
-	    margin-top: 60px;
+        display: none;
+        
     }
 
     .seccion4Contacto__logoTwitter{
         display: none;
-        height: 60px;
-        width: 60px;
-        margin-top: 60px;
     }
 
     .seccion4__tituloFooter{
-        padding-top: 45px;
-        padding-left: 20px;
+        margin-left: -200px;
+        margin-right: 140px;
         font-family: 'Nunito Sans', sans-serif;
     }
 
     .seccion4Contacto__tituloFooter{
-        padding-top: 45px;
-        padding-left: 20px;
+        margin-left: -200px;
+        margin-right: 140px;
         font-family: 'Nunito Sans', sans-serif;
     }
 
     /* seleccion estadisticas */
 
     .seccion1Estadisticas{
-        height: 500px;
+        height: 800px;
+        width: 100%;
     }
     .seccion2Es{
-        height: 1550px;
+        height: 1970px;
+    }
+
+    .tituloCopa{
+        font-size: 40px;
     }
     
-}
+    /*noticias*/
+
+    .seccion1Noticias{
+        height: 1300px;
+        width: 100%;
+    }
+
+    /*Galeria*/
+
+    .seccion1galeria__galeria{
+        width: 100%;
+        height: 350px;
+    }
+
+    @media screen and (min-width: 1024px){
+        
+        /*inicio*/
+
+        .proxPartidos1{
+            padding-left: 220px;
+        }
+
+        .seccion1{
+            height: 800px;
+            width: 100%;
+        }
+
+        .seccion4__logoFooter{
+            padding-left: 200px;
+        }
+
+        /*estadisticas*/
+
+        .seccion1Estadisticas{
+            height: 600px;
+            width: 100%;
+        }
+
+        /*noticias*/
+
+        .seccion1Noticias{
+            height: 1150px;
+            width: 100%;
+        }
+
+        /*contacto*/
+
+        .seccion4Contacto__logoFooter{
+            padding-left: 200px;
+        }
+
+    }
     
+    @media screen and (min-width: 1440px){
+
+        /*inicio*/
+
+        .seccion4__tituloFooter{
+            padding-left: 20px;
+        }
+
+        .seccion4__logoFooter{
+            padding-left: 400px;
+        }
+
+        /*estadisticas*/
+
+        .seccion1Estadisticas{
+            height: 700px;
+            width: 100%;
+        }
+
+        /*galeria*/
+
+        .seccion1galeria__galeria{
+            width: 100%;
+            height: 350px;
+        }
+
+        /*contacto*/
+
+        .seccion4Contacto__logoFooter{
+            padding-left: 400px;
+        }
+
+    }
+
+}
