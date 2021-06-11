@@ -18,20 +18,35 @@ nav {
 }
 
 /*carousel*/
-/*
-.carousel{
-    height: auto;
-    width: 100%;
+.carousel {
+  height: auto;
+  width: 100%;
 }
 
-.efecto{
-    filter: grayscale(80%);
+.efecto {
+  -webkit-filter: grayscale(80%);
+          filter: grayscale(80%);
 }
 
-.bienvenida{
-    font-family: 'Nunito Sans', sans-serif;
+.carousel__titulo {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 50px;
+  text-shadow: black -10px -6px;
+  -webkit-text-decoration: transparent;
+          text-decoration: transparent;
+}
 
-}*/
+.carousel__descripcion {
+  font-size: 30px;
+  margin-right: 150px;
+  text-shadow: black -10px -6px;
+}
+
+.caption-center {
+  top: 10%;
+  padding-right: 20px;
+}
+
 /* proximos partidos */
 .seccion1 {
   height: 500px;
@@ -48,33 +63,17 @@ nav {
 .contenedor {
   margin-left: 80px;
   margin-top: 30px;
+  padding-left: 20px;
 }
 
 .proxPartidos1 {
   list-style: none;
-  padding-left: 10px;
 }
 
 .proxPartidos1__titulo2 {
   font-weight: bold;
 }
 
-/*tabla general*/
-/*
-.seccion2{
-    height: 600px;
-    width: 100%;
-    background-color: #edffec;
-
-}
-
-.seccion2__tituloTabla{
-    text-align: center;
-    margin-bottom: 20px;
-    padding-top: 10px;
-    font-family: 'Nunito Sans', sans-serif;
-}
-*/
 /* gol de la fecha */
 .seccion3 {
   height: 450px;
@@ -97,7 +96,7 @@ nav {
 
 /*footer*/
 .seccion4 {
-  height: 670px;
+  height: 500px;
   width: 100%;
   background-color: #e4bad4;
   display: -webkit-box;
@@ -110,42 +109,44 @@ nav {
   border: 0px;
 }
 
-.seccion4__seguinos {
-  font-size: 25px;
-  margin-left: 450px;
-  margin-top: 20px;
-}
-
-.seccion4__seguir {
-  color: black;
-  font-family: 'Nunito Sans', sans-serif;
-}
-
-.seccion4__logoInstagram {
-  height: 60px;
-  width: 60px;
-  margin-top: 60px;
-}
-
-.seccion4__logoTwitter {
-  height: 60px;
-  width: 60px;
-  margin-top: 60px;
-}
-
 footer div h3 {
   color: white;
 }
 
-.logoFooter {
-  margin-top: 25px;
-  margin-left: 10px;
-}
-
 .seccion4__tituloFooter {
   padding-top: 45px;
-  padding-left: 20px;
+  padding-left: 40px;
   font-family: 'Nunito Sans', sans-serif;
+}
+
+.instagram {
+  margin-top: 330px;
+  font-size: 40px;
+  margin-left: -400px;
+}
+
+.twitter {
+  margin-top: 330px;
+  font-size: 40px;
+  margin-left: -340px;
+}
+
+.facebook {
+  margin-top: 330px;
+  font-size: 40px;
+  margin-left: -280px;
+}
+
+.linkedin {
+  margin-top: 330px;
+  font-size: 40px;
+  margin-left: -220px;
+}
+
+.copyright {
+  margin-top: 410px;
+  font-size: 30px;
+  margin-left: -305px;
 }
 
 /*noticias*/
@@ -168,6 +169,10 @@ footer div h3 {
 .tituloNoticias {
   text-align: center;
   font-family: 'Nunito Sans', sans-serif;
+}
+
+.tituloBold {
+  font-weight: bold;
 }
 
 /*estadisticas*/
@@ -195,8 +200,8 @@ footer div h3 {
   height: 400px;
   width: 100%;
   padding-top: 10px;
-  padding-left: 5px;
-  padding-right: 10px;
+  padding-left: 20px;
+  padding-right: 30px;
   border: 0px;
 }
 
@@ -249,38 +254,15 @@ div p {
           flex-direction: row;
 }
 
-.seccion4Contacto__seguinos {
-  font-size: 25px;
-  margin-left: 450px;
-  margin-top: 20px;
-}
-
-.seccion4Contacto__seguir {
-  color: black;
-  font-family: 'Nunito Sans', sans-serif;
-}
-
-.seccion4Contacto__logoInstagram {
-  height: 60px;
-  width: 60px;
-  margin-top: 60px;
-}
-
-.seccion4Contacto__logoTwitter {
-  height: 60px;
-  width: 60px;
-  margin-top: 60px;
-}
-
 .seccion4Contacto__logoFooter {
   margin-top: 25px;
-  margin-left: 10px;
+  margin-left: 60px;
   margin-bottom: 25px;
 }
 
 .seccion4Contacto__tituloFooter {
   padding-top: 45px;
-  padding-left: 20px;
+  padding-left: 10px;
   font-family: 'Nunito Sans', sans-serif;
 }
 
@@ -337,11 +319,17 @@ div p {
 /*Media quares*/
 @media screen and (min-width: 320px) {
   /*inicio*/
+  .carousel__titulo {
+    font-size: 30px;
+  }
+  .carousel__descripcion {
+    font-size: 10px;
+  }
   .contenedor {
     padding-right: 50px;
   }
   .seccion1 {
-    height: 1650px;
+    height: 1700px;
     width: 100%;
   }
   .seccion1__titulo {
@@ -375,7 +363,8 @@ div p {
     width: 280px;
   }
   .seccion4 {
-    height: 150px;
+    height: 500px;
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -386,29 +375,15 @@ div p {
   .seccion4__titulo {
     margin-left: 7px;
   }
-  .seccion4__logoInstagram {
-    display: none;
-  }
-  .seccion4__logoTwitter {
-    display: none;
-  }
-  .seccion4__seguir {
-    display: none;
-  }
   /*contacto*/
+  .seccion4Contacto {
+    height: 500px;
+    width: 100%;
+  }
   .seccion4Contacto__titulo {
     margin-left: 7px;
   }
   .seccion4Contacto__logoFooter {
-    display: none;
-  }
-  .seccion4Contacto__seguir {
-    display: none;
-  }
-  .seccion4Contacto__logoInstagram {
-    display: none;
-  }
-  .seccion4Contacto__logoTwitter {
     display: none;
   }
   /*noticias*/
@@ -447,7 +422,50 @@ div p {
   }
 }
 
+@media screen and (min-width: 460px) {
+  /*inicio*/
+  .seccion1 {
+    height: 1000px;
+    width: 100%;
+  }
+  .contenedor {
+    margin-right: 20px;
+    margin-left: 10px;
+  }
+  .seccion4 {
+    height: 500px;
+    width: 100%;
+  }
+  .seccion4__tituloFooter {
+    margin-left: 70px;
+  }
+  /*estadisticas*/
+  .seccion1Estadisticas {
+    height: 750px;
+    width: 100%;
+  }
+  /*galeria*/
+  .seccion1galeria__galeria {
+    height: 300px;
+    width: 100%;
+  }
+  /*contacto*/
+  .seccion4Contacto {
+    height: 500px;
+    width: 100%;
+  }
+  .seccion4Contacto__tituloFooter {
+    margin-left: 70px;
+  }
+}
+
 @media screen and (min-width: 600px) {
+  .carousel__titulo {
+    font-size: 40px;
+  }
+  .carousel__descripcion {
+    font-size: 20px;
+  }
   .list-group-item {
     height: 80px;
     width: 512px;
@@ -485,7 +503,7 @@ div p {
     height: 315px;
   }
   .seccion4 {
-    height: 350px;
+    height: 500px;
     width: 100%;
     background-color: #e4bad4;
     display: -webkit-box;
@@ -511,17 +529,8 @@ div p {
     width: 560px;
     padding-right: 15px;
   }
-  .seccion4__logoInstagram {
-    display: none;
-  }
-  .seccion4__logoTwitter {
-    display: none;
-  }
-  .seccion4__seguir {
-    display: none;
-  }
   .seccion4Contacto {
-    height: 350px;
+    height: 500px;
     width: 100%;
     background-color: #e4bad4;
     display: -webkit-box;
@@ -541,15 +550,6 @@ div p {
     margin-left: 250px;
     height: 100px;
     width: auto;
-  }
-  .seccion4Contacto__seguir {
-    display: none;
-  }
-  .seccion4Contacto__logoInstagram {
-    display: none;
-  }
-  .seccion4Contacto__logoTwitter {
-    display: none;
   }
   .seccion4__tituloFooter {
     margin-left: -200px;
@@ -587,10 +587,14 @@ div p {
 @media screen and (min-width: 600px) and (min-width: 1024px) {
   /*inicio*/
   .proxPartidos1 {
-    padding-left: 220px;
+    padding-left: 250px;
   }
   .seccion1 {
     height: 800px;
+    width: 100%;
+  }
+  .seccion4 {
+    height: 500px;
     width: 100%;
   }
   .seccion4__logoFooter {
@@ -607,6 +611,10 @@ div p {
     width: 100%;
   }
   /*contacto*/
+  .seccion4Contacto {
+    height: 500px;
+    width: 100%;
+  }
   .seccion4Contacto__logoFooter {
     padding-left: 200px;
   }
@@ -614,6 +622,19 @@ div p {
 
 @media screen and (min-width: 600px) and (min-width: 1440px) {
   /*inicio*/
+  .proxPartidos1 {
+    padding-left: 130px;
+  }
+  .carousel__titulo {
+    font-size: 50px;
+  }
+  .carousel__descripcion {
+    font-size: 30px;
+  }
+  .seccion4 {
+    height: 500px;
+    width: 100%;
+  }
   .seccion4__tituloFooter {
     padding-left: 20px;
   }
@@ -636,6 +657,10 @@ div p {
     width: 100%;
   }
   /*contacto*/
+  .seccion4Contacto {
+    height: 500px;
+    width: 100%;
+  }
   .seccion4Contacto__logoFooter {
     padding-left: 400px;
   }
