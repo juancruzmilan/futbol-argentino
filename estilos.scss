@@ -107,46 +107,45 @@ nav{
     display: flex;
     flex-direction: row;
     border: 0px;
+    justify-content: center;
 }
 
 footer div h3{
 	color: white;
 }
 
-.seccion4__tituloFooter{
-    padding-top: 45px;
-    padding-left: 40px;
-    font-family: 'Nunito Sans', sans-serif;
+.seccion4__logoFooter{
+    margin-right: 680px;
 }
 
 .instagram{
     margin-top: 330px;
     font-size: 40px;
-    margin-left: -400px;
+    margin-left: -1080px;
 }
 
 .twitter{
     margin-top: 330px;
     font-size: 40px;
-    margin-left: -340px;
+    margin-left: -1020px;
 }
 
 .facebook{
     margin-top: 330px;
     font-size: 40px;
-    margin-left: -280px;
+    margin-left: -960px;
 }
 
 .linkedin{
     margin-top: 330px;
     font-size: 40px;
-    margin-left: -220px;
+    margin-left: -900px;
 }
 
 .copyright{
     margin-top: 410px;
     font-size: 30px;
-    margin-left: -305px;
+    margin-left: -927px;
 }
 
 /*noticias*/
@@ -253,19 +252,9 @@ div p{
 }
 
 .seccion4Contacto__logoFooter{
-	margin-top: 25px;
-	margin-left: 60px;
-    margin-bottom: 25px;
+	margin-right: 680px;
+    padding-left: -200px;
 }
-
-.seccion4Contacto__tituloFooter{
-    padding-top: 45px;
-    padding-left: 10px;
-    font-family: 'Nunito Sans', sans-serif;
-}
-
-
-
 
 
 /* estadisticas seleccion */
@@ -346,12 +335,12 @@ div p{
     }
 
     .contenedor{
-        padding-right: 50px;
+        margin-left: -35px;
     }
     
     
     .seccion1{
-        height: 1700px;
+        height: 1130px;
         width: 100%;
     }
 
@@ -367,6 +356,7 @@ div p{
         font-size: 15px;
         padding-top: 25px;
         word-break: keep-all;
+        padding-left: 40px;
     }
 
     .partidos{
@@ -400,8 +390,24 @@ div p{
         display: flex;
     }
 
+    .seccion4__tituloFooter{
+        display: none;
+    }
+
     .seccion4__logoFooter{
-        display: none;    
+        margin-top: 140px;
+        height: 110px;
+        width: auto;
+        margin-left: 670px;    
+    }
+
+    
+    .redes{
+        padding-left: 240px;
+    }
+
+    .copyright{
+        padding-left: 185px;
     }
 
     .seccion4__titulo{
@@ -413,14 +419,22 @@ div p{
     .seccion4Contacto{
         height: 500px;
         width: 100%;
+        background-color: #e4bad4;
     }
 
     .seccion4Contacto__titulo{
         margin-left: 7px;
     }
 
-    .seccion4Contacto__logoFooter{
+    .seccion4Contacto__tituloFooter{
         display: none;
+    }
+
+    .seccion4Contacto__logoFooter{
+        margin-top: 140px;
+        height: 110px;
+        width: auto;
+        margin-left: 100px; 
     }
 
     /*noticias*/
@@ -438,7 +452,7 @@ div p{
     /*estadisticas*/
 
     .seccion1Estadisticas{
-        height: 1010px;
+        height: 900px;
     }
 
     .goleadores{
@@ -446,9 +460,7 @@ div p{
         padding-left: 10px;
     }
 
-    .contenedor2{
-        padding-left: 45px;
-    }
+
 
     /*estadisticas seleccion*/
 
@@ -493,7 +505,15 @@ div p{
     }
 
     .seccion4__tituloFooter{
-        margin-left: 70px;
+        display: none;
+    }
+
+    .seccion4__logoFooter{
+        margin-left: 670px;
+    }
+
+    .copyright{
+        margin-right: 20px;
     }
 
     /*estadisticas*/
@@ -518,13 +538,13 @@ div p{
     }
 
     .seccion4Contacto__tituloFooter{
-        margin-left: 70px;
+        display: none;
     }
 
-
-
+    .seccion4Contacto__logoFooter{
+        margin-left: 170px;
+    }
 }
-
 @media screen and (min-width: 600px){
     
     .carousel__titulo{
@@ -545,7 +565,7 @@ div p{
     }
 
     .contenedor{
-        margin-left: 20px;
+        margin-left: -5px;
     
     }
 
@@ -564,7 +584,6 @@ div p{
         background-color: #edffec;
     
     }
-
 
     .seccion3{
         height: 450px;
@@ -591,7 +610,7 @@ div p{
     .seccion4__logoFooter{
         display: flex;
         margin-top: 150px;
-        margin-left: 250px;
+        margin-left: 670px;
         height: 100px;
         width: auto;
     }
@@ -618,17 +637,6 @@ div p{
         width: auto;
     }
 
-    .seccion4__tituloFooter{
-        margin-left: -200px;
-        margin-right: 140px;
-        font-family: 'Nunito Sans', sans-serif;
-    }
-
-    .seccion4Contacto__tituloFooter{
-        margin-left: -200px;
-        margin-right: 140px;
-        font-family: 'Nunito Sans', sans-serif;
-    }
 
     /* seleccion estadisticas */
 
@@ -643,7 +651,8 @@ div p{
     .tituloCopa{
         font-size: 40px;
     }
-    
+   
+
     /*noticias*/
 
     .seccion1Noticias{
@@ -677,9 +686,11 @@ div p{
         }
 
         .seccion4__logoFooter{
-            padding-left: 200px;
+            margin-left: 670px;
         }
 
+        
+        
         /*estadisticas*/
 
         .seccion1Estadisticas{
@@ -728,12 +739,8 @@ div p{
             width: 100%;
         }
 
-        .seccion4__tituloFooter{
-            padding-left: 20px;
-        }
-
         .seccion4__logoFooter{
-            padding-left: 400px;
+            margin-left: 670px;
         }
 
         /*estadisticas*/
@@ -765,7 +772,18 @@ div p{
         }
 
         .seccion4Contacto__logoFooter{
-            padding-left: 400px;
+            padding-left: 430px;
+        }
+
+    }
+
+    @media screen and (min-width: 1600px){
+        .seccion4__logoFooter{
+            margin-left: 670px;
+        }
+
+        .seccion4Contacto__logoFooter{
+            padding-left: 530px;
         }
 
     }
