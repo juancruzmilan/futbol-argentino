@@ -310,6 +310,10 @@ div p {
   padding: 5px;
 }
 
+.row {
+  padding: 10px;
+}
+
 /*Media quares*/
 @media screen and (min-width: 320px) {
   /*inicio*/
@@ -495,13 +499,13 @@ div p {
     border-radius: 5px;
   }
   .contenedor {
-    margin-left: -5px;
+    margin-left: 15px;
   }
   .list-group {
     padding-left: none;
   }
   .seccion1 {
-    height: 950px;
+    height: 980px;
     width: 100%;
     background-color: #caf7e3;
   }
@@ -582,6 +586,9 @@ div p {
   .tituloCopa {
     font-size: 40px;
   }
+  .contenedor2 {
+    padding-left: 70px;
+  }
   /*noticias*/
   .seccion1Noticias {
     height: 1300px;
@@ -589,8 +596,9 @@ div p {
   }
   /*Galeria*/
   .seccion1galeria__galeria {
-    width: 100%;
     height: 350px;
+    width: 550px;
+    margin-left: 15px;
   }
 }
 
@@ -609,6 +617,14 @@ div p {
   }
   .seccion4__logoFooter {
     margin-left: 670px;
+  }
+  /*galeria*/
+  .seccion1galeria__galeria {
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    height: 220px;
+    width: auto;
+    margin-left: -10px;
   }
   /*estadisticas*/
   .seccion1Estadisticas {
@@ -679,6 +695,15 @@ div p {
   }
   .seccion4Contacto__logoFooter {
     padding-left: 530px;
+  }
+  .contenedor2 {
+    padding-left: 20px;
+  }
+  .row {
+    padding: 10px;
+  }
+  .seccion1galeria__galeria {
+    margin-left: 1px;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
