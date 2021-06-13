@@ -31,7 +31,7 @@ nav {
 .carousel__titulo {
   font-family: 'Nunito Sans', sans-serif;
   font-size: 50px;
-  text-shadow: black -10px -6px;
+  text-shadow: black -4px -4px;
   -webkit-text-decoration: transparent;
           text-decoration: transparent;
 }
@@ -106,7 +106,6 @@ nav {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  border: 0px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -283,7 +282,7 @@ div p {
 /*gaaleria*/
 .seccion1galeria {
   height: auto;
-  width: 100%;
+  width: 99%;
   background-color: #caf7e3;
 }
 
@@ -324,7 +323,7 @@ div p {
     font-size: 10px;
   }
   .contenedor {
-    margin-left: -35px;
+    margin-left: -20px;
   }
   .seccion1 {
     height: 1130px;
@@ -342,15 +341,9 @@ div p {
     word-break: keep-all;
     padding-left: 40px;
   }
-  .partidos {
-    padding-left: 20px;
-  }
-  .seccion2 {
-    height: 910px;
-    width: 100%;
-  }
   .seccion3 {
     height: 350px;
+    width: 100%;
   }
   .seccion3__tituloGol {
     padding-top: 15px;
@@ -360,16 +353,6 @@ div p {
     padding-top: 35px;
     height: 190px;
     width: 280px;
-  }
-  .seccion4 {
-    height: 500px;
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .seccion4__tituloFooter {
-    display: none;
   }
   .seccion4__logoFooter {
     margin-top: 140px;
@@ -383,9 +366,6 @@ div p {
   .copyright {
     padding-left: 185px;
   }
-  .seccion4__titulo {
-    margin-left: 7px;
-  }
   /*contacto*/
   .seccion4Contacto {
     height: 500px;
@@ -394,9 +374,6 @@ div p {
   }
   .seccion4Contacto__titulo {
     margin-left: 7px;
-  }
-  .seccion4Contacto__tituloFooter {
-    display: none;
   }
   .seccion4Contacto__logoFooter {
     margin-top: 140px;
@@ -433,7 +410,7 @@ div p {
   }
   .seccion1galeria__galeria {
     height: 200px;
-    width: 100%;
+    width: 300px;
   }
 }
 
@@ -446,13 +423,6 @@ div p {
   .contenedor {
     margin-right: 20px;
     margin-left: 10px;
-  }
-  .seccion4 {
-    height: 500px;
-    width: 100%;
-  }
-  .seccion4__tituloFooter {
-    display: none;
   }
   .seccion4__logoFooter {
     margin-left: 670px;
@@ -474,9 +444,6 @@ div p {
   .seccion4Contacto {
     height: 500px;
     width: 100%;
-  }
-  .seccion4Contacto__tituloFooter {
-    display: none;
   }
   .seccion4Contacto__logoFooter {
     margin-left: 170px;
@@ -525,19 +492,6 @@ div p {
     text-align: center;
     width: 560px;
     height: 315px;
-  }
-  .seccion4 {
-    height: 500px;
-    width: 100%;
-    background-color: #e4bad4;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    border: none;
   }
   .seccion4__logoFooter {
     display: -webkit-box;
@@ -611,10 +565,6 @@ div p {
     height: 800px;
     width: 100%;
   }
-  .seccion4 {
-    height: 500px;
-    width: 100%;
-  }
   .seccion4__logoFooter {
     margin-left: 670px;
   }
@@ -656,10 +606,6 @@ div p {
   }
   .carousel__descripcion {
     font-size: 30px;
-  }
-  .seccion4 {
-    height: 500px;
-    width: 100%;
   }
   .seccion4__logoFooter {
     margin-left: 670px;
