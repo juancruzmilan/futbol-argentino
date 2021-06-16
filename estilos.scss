@@ -128,7 +128,7 @@ nav{
 /*noticias*/
 
 .seccion1Noticias{
-    height: 1250px;
+    height: 1150px;
     background-color: #edffec;
 }
 .contenedorNoticias{
@@ -152,6 +152,14 @@ nav{
 }
 
 /*estadisticas*/
+
+.estadisticas1{
+    height: 550px;
+    background-color: #caf7e3;
+    width: 100%;
+    padding: 15px;
+}
+
 .seccion1Estadisticas{
     height: 400px;
     width: 100%;
@@ -164,7 +172,7 @@ nav{
     text-align: center;
     font-family: 'Nunito Sans', sans-serif;
     padding-bottom: 15px;
-
+    padding-top: 15px;
 }
 
 .goleadores{
@@ -176,7 +184,7 @@ nav{
 
 .seccion1Contacto{
     background-color: #caf7e3;
-    height: 400px;
+    height: 1000px;
     width: 100%;
     padding-top: 10px;
     padding-left: 20px;
@@ -193,7 +201,7 @@ div p{
     font-family: 'Nunito Sans', sans-serif;
 }
 
-.seccion2Contacto__tituloContacto{
+.seccion1Contacto__tituloContacto{
     text-align: center;
     font-family: 'Nunito Sans', sans-serif;
 }
@@ -202,32 +210,25 @@ div p{
     padding-bottom: 10px;
 }
 
-.seccion2Contacto{
+.seccion1Contacto{
     height: 250px;
     width: 100%;
     background-color: #edffec;
     margin-bottom: 10px;
 }
 
-.seccion2Contacto__redes{
+.seccion1Contacto__redes{
     text-align: center;
     font-family: 'Nunito Sans', sans-serif;
     padding-top: 10px;
 }
 
-.seccion2Contacto__redes1{
+.seccion1Contacto__redes1{
     text-align: center;
     font-family: 'Nunito Sans', sans-serif;
 }
 
 /* estadisticas seleccion */
-
-.seccion2Es{
-    height: 1550px;
-    width: 100%;
-    background-color: #edffec;
-
-}
 
 .campeonatos{
     text-align: center;
@@ -344,7 +345,7 @@ div p{
     /*estadisticas*/
 
     .seccion1Estadisticas{
-        height: 900px;
+        height: 2150px;
     }
 
     .goleadores{
@@ -356,9 +357,7 @@ div p{
 
     /*estadisticas seleccion*/
 
-    .seccion2Es{
-       height: 1200px;
-   }
+    
 
    .tituloCopa{
        font-size: 20px;
@@ -373,6 +372,14 @@ div p{
    .seccion1galeria__galeria{
        height: 200px;
        width: 300px;
+   }
+
+   /*contacto*/
+
+   .seccion1Contacto{
+       height: 700px;
+       width: auto;
+       background-color: #caf7e3;
    }
 
 }
@@ -394,7 +401,7 @@ div p{
     /*estadisticas*/
 
     .seccion1Estadisticas{
-        height: 750px;
+        height: 1900px;
         width: 100%;
     }
 
@@ -440,13 +447,7 @@ div p{
         width: 100%;
         background-color: #caf7e3;
     }
-    .seccion2{
-        height: 600px;
-        width: 100%;
-        background-color: #edffec;
     
-    }
-
     .seccion3{
         height: 450px;
         width: 100%;
@@ -465,12 +466,10 @@ div p{
     /* seleccion estadisticas */
 
     .seccion1Estadisticas{
-        height: 800px;
+        height: 2700px;
         width: 100%;
     }
-    .seccion2Es{
-        height: 1970px;
-    }
+    
 
     .tituloCopa{
         font-size: 40px;
@@ -526,7 +525,7 @@ div p{
         /*estadisticas*/
 
         .seccion1Estadisticas{
-            height: 600px;
+            height: 2400px;
             width: 100%;
         }
 
@@ -559,7 +558,7 @@ div p{
         /*estadisticas*/
 
         .seccion1Estadisticas{
-            height: 700px;
+            height: 2400px;
             width: 100%;
         }
 
@@ -577,7 +576,7 @@ div p{
         }
 
 
-        /*contacto*/
+        
 
     }
 
@@ -597,6 +596,19 @@ div p{
 
         .seccion1galeria__galeria{
             margin-left: 1px;
+        }
+
+        .seccion1Contacto{
+            height: 700px;
+            background-color: #caf7e3;
+        }
+
+        .seccion1Estadisticas{
+            height: 2300px;
+        }
+        
+        .seccion1Noticias{
+            height: 1290px;
         }
     }
 
