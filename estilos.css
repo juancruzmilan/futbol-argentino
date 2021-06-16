@@ -335,6 +335,9 @@ div p {
     padding-top: 30px;
     padding-left: 10px;
   }
+  .estadisticas1 {
+    height: 700px;
+  }
   /*estadisticas seleccion*/
   .tituloCopa {
     font-size: 20px;
