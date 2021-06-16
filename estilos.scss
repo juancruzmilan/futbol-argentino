@@ -100,52 +100,34 @@ nav{
 
 /*footer*/
 
-.seccion4{
-    height: 500px;
-    width: 100%;
-    background-color: #e4bad4;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-footer div h3{
-	color: white;
-}
-
-.seccion4__logoFooter{
-    margin-right: 680px;
-}
-
-.instagram{
-    margin-top: 330px;
-    font-size: 40px;
-    margin-left: -1080px;
-}
-
-.twitter{
-    margin-top: 330px;
-    font-size: 40px;
-    margin-left: -1020px;
-}
-
-.facebook{
-    margin-top: 330px;
-    font-size: 40px;
-    margin-left: -960px;
-}
-
-.linkedin{
-    margin-top: 330px;
-    font-size: 40px;
-    margin-left: -900px;
-}
-
-.copyright{
-    margin-top: 410px;
-    font-size: 30px;
-    margin-left: -927px;
-}
+.footer{
+    background: #152F4F;
+    color:white;
+    .links{
+      ul {list-style-type: none;}
+      li a{
+        color: white;
+        transition: color .2s;
+        &:hover{
+          text-decoration:none;
+          color:#4180CB;
+          }
+      }
+    }  
+    .about-company{
+      i{font-size: 35px;}
+      a{
+        color:white;
+        transition: color .2s;
+        &:hover{color:#4180CB}
+        padding: 5px;
+      }
+    } 
+    .location{
+      i{font-size: 18px;}
+    }
+    .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+  }
 
 /*noticias*/
 
@@ -242,20 +224,6 @@ div p{
     font-family: 'Nunito Sans', sans-serif;
 }
 
-.seccion4Contacto{
-    background-color: #f6dfeb;
-    height: 150px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-}
-
-.seccion4Contacto__logoFooter{
-	margin-right: 680px;
-    padding-left: -200px;
-}
-
-
 /* estadisticas seleccion */
 
 .seccion2Es{
@@ -314,15 +282,6 @@ div p{
     padding: 10px;
 }
 
-
-
-
-
-
-
-
-
-
 /*Media quares*/
 
 @media screen and (min-width: 320px){
@@ -378,40 +337,8 @@ div p{
         width: 280px;
     }
 
-    .seccion4__logoFooter{
-        margin-top: 140px;
-        height: 110px;
-        width: auto;
-        margin-left: 670px;    
-    }
-
-    
-    .redes{
-        padding-left: 240px;
-    }
-
-    .copyright{
-        padding-left: 185px;
-    }
-    
     /*contacto*/
 
-    .seccion4Contacto{
-        height: 500px;
-        width: 100%;
-        background-color: #e4bad4;
-    }
-
-    .seccion4Contacto__titulo{
-        margin-left: 7px;
-    }
-
-    .seccion4Contacto__logoFooter{
-        margin-top: 140px;
-        height: 110px;
-        width: auto;
-        margin-left: 100px; 
-    }
 
     /*noticias*/
 
@@ -475,15 +402,6 @@ div p{
         margin-left: 10px;
     }
 
-
-    .seccion4__logoFooter{
-        margin-left: 670px;
-    }
-
-    .copyright{
-        margin-right: 20px;
-    }
-
     /*estadisticas*/
 
     .seccion1Estadisticas{
@@ -500,16 +418,7 @@ div p{
 
     /*contacto*/
 
-    .seccion4Contacto{
-        height: 500px;
-        width: 100%;
-    }
-
-    .seccion4Contacto__logoFooter{
-        margin-left: 170px;
-    }
-}
-@media screen and (min-width: 600px){
+    @media screen and (min-width: 600px){
     
     .carousel__titulo{
         font-size: 40px;
@@ -563,36 +472,12 @@ div p{
         width: 560px;
         height: 315px;
     }
-    .seccion4__logoFooter{
-        display: flex;
-        margin-top: 150px;
-        margin-left: 670px;
-        height: 100px;
-        width: auto;
-    }
+
     .seccion3__golDeLaFecha2{
         height: 315px;
         width: 560px;
         padding-right: 15px;
     }
-
-    .seccion4Contacto{
-        height: 500px;
-        width: 100%;
-        background-color: #e4bad4;
-        display: flex;
-        flex-direction: row;
-        border: none;
-    }
-
-    .seccion4Contacto__logoFooter{
-        display: flex;
-        margin-top: 150px;
-        margin-left: 250px;
-        height: 100px;
-        width: auto;
-    }
-
 
     /* seleccion estadisticas */
 
@@ -629,7 +514,7 @@ div p{
         
     }
 
-    
+    }
 
     @media screen and (min-width: 1024px){
         
@@ -642,10 +527,6 @@ div p{
         .seccion1{
             height: 800px;
             width: 100%;
-        }
-
-        .seccion4__logoFooter{
-            margin-left: 670px;
         }
 
         /*galeria*/
@@ -674,16 +555,6 @@ div p{
         }
 
         /*contacto*/
-
-        .seccion4Contacto{
-            height: 500px;
-            width: 100%;
-        }
-
-        .seccion4Contacto__logoFooter{
-            padding-left: 200px;
-        }
-
     }
     
     @media screen and (min-width: 1440px){
@@ -700,10 +571,6 @@ div p{
         
         .carousel__descripcion{
             font-size: 30px;
-        }
-
-        .seccion4__logoFooter{
-            margin-left: 670px;
         }
 
         /*estadisticas*/
@@ -729,26 +596,9 @@ div p{
 
         /*contacto*/
 
-        .seccion4Contacto{
-            height: 500px;
-            width: 100%;
-        }
-
-        .seccion4Contacto__logoFooter{
-            padding-left: 430px;
-        }
-
     }
 
     @media screen and (min-width: 1600px){
-        .seccion4__logoFooter{
-            margin-left: 670px;
-        }
-
-        .seccion4Contacto__logoFooter{
-            padding-left: 530px;
-        }
-
         .contenedor2{
             padding-left: 20px;            
         }
@@ -762,4 +612,4 @@ div p{
         }
     }
 
-}
+    }
