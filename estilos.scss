@@ -48,8 +48,9 @@ nav{
 }
 
 /* proximos partidos */
+
 .seccion1{
-    height: 500px;
+    height: 1000px;
     width: 100%;
     background-color: #caf7e3;
 }
@@ -60,8 +61,6 @@ nav{
     font-family: 'Nunito Sans', sans-serif;
     
 }
-
-
 
 .contenedor{
     margin-left: 80px;
@@ -79,20 +78,17 @@ nav{
 }
 
 /* gol de la fecha */
-.seccion3{
-    height: 450px;
-    width: 100%;
-    background-color: #f6dfeb;
-}
-.seccion3__golDeLaFecha{
+
+.seccion1__golDeLaFecha{
     text-align: center;
+    padding-bottom: 30px;
 }
 
 .golazo{
     padding-top: 10px;
 }
 
-.seccion3__tituloGol{
+.seccion1__tituloGol{
     text-align: center;
     font-family: 'Nunito Sans', sans-serif;
 }
@@ -297,12 +293,12 @@ div p{
     }
 
     .contenedor{
-        margin-left: -20px;
+        margin-left: 10px;   
     }
     
     
     .seccion1{
-        height: 1130px;
+        height: 1600px;
         width: 100%;
     }
 
@@ -321,24 +317,17 @@ div p{
         padding-left: 40px;
     }
     
-    .seccion3{
-        height: 350px;
-        width: 100%;
-    }
-
-    .seccion3__tituloGol{
+    .seccion1__tituloGol{
         padding-top: 15px;
         padding-bottom: 15px;
     }
 
-    .seccion3__golDeLaFecha2{
+    .seccion1__golDeLaFecha2{
         padding-top: 35px;
         height: 190px;
         width: 280px;
+        padding-left: 10px;
     }
-
-    /*contacto*/
-
 
     /*noticias*/
 
@@ -393,7 +382,7 @@ div p{
     /*inicio*/
 
     .seccion1{
-        height: 1000px;
+        height: 1350px;
         width: 100%;
     }
 
@@ -447,7 +436,7 @@ div p{
     }
 
     .seccion1{
-        height: 980px;
+        height: 1480px;
         width: 100%;
         background-color: #caf7e3;
     }
@@ -463,17 +452,11 @@ div p{
         width: 100%;
     }
 
-    .seccion3__tituloGol{
+    .seccion1__tituloGol{
         padding-top: 10px;
     }
 
-    .golDeLaFecha1{
-        text-align: center;
-        width: 560px;
-        height: 315px;
-    }
-
-    .seccion3__golDeLaFecha2{
+    .seccion1__golDeLaFecha2{
         height: 315px;
         width: 560px;
         padding-right: 15px;
@@ -525,7 +508,7 @@ div p{
         }
 
         .seccion1{
-            height: 800px;
+            height: 1200px;
             width: 100%;
         }
 
@@ -599,6 +582,11 @@ div p{
     }
 
     @media screen and (min-width: 1600px){
+        
+        .seccion1{
+            height: 1100px;
+            border-top: white 10px;
+        }
         .contenedor2{
             padding-left: 20px;            
         }
